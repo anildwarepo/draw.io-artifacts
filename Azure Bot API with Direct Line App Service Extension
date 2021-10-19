@@ -1,4 +1,4 @@
-<mxfile modified="2021-10-19T19:05:40.005Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="VB9DYTEARANAlbOCLOMQ" version="15.5.6" type="github">
+<mxfile modified="2021-10-19T19:05:53.030Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="8PXtHJFT8CSfRnkOJETI" version="15.5.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2942" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
           <mxGeometry x="511.5" y="689.5" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="961.5" y="196.5" width="539" height="793" as="geometry" />
+          <mxGeometry x="961.5" y="196.5" width="539" height="603.5" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-75" value="There exists an on-premises web application that intends to host a Azure Web Chat Bot" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1031.5" y="207.5" width="449" height="72" as="geometry" />
