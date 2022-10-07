@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T07:59:54.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="j2s9g6on-ZMlNMxgMO5T" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T08:06:13.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="ybTG-vGB1cOCKhGCB54T" version="17.4.0" type="github">
   <diagram id="A7L3Htp6EHOdOOxvq8Ae" name="Postgresql as OLTP">
     <mxGraphModel dx="1824" dy="1420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,16 +241,16 @@
           <mxGeometry x="1654" y="329.83000000000004" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2wye05OY2RIs6DNp3Of_-86" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="200" width="850" height="120" as="geometry" />
+          <mxGeometry x="1800" y="200" width="1140" height="370" as="geometry" />
         </mxCell>
         <mxCell id="2wye05OY2RIs6DNp3Of_-87" value="1. Data Sources emitting real time data in json format." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="2wye05OY2RIs6DNp3Of_-86">
-          <mxGeometry y="30" width="850" height="30" as="geometry" />
+          <mxGeometry y="30" width="1140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2wye05OY2RIs6DNp3Of_-88" value="2. Data Sources providing bulk data in json or CSV or databases" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="2wye05OY2RIs6DNp3Of_-86">
-          <mxGeometry y="60" width="850" height="30" as="geometry" />
+          <mxGeometry y="60" width="1140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2wye05OY2RIs6DNp3Of_-89" value="3. Realtime data is ingested in Azure Event Hub Premium which provides" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="2wye05OY2RIs6DNp3Of_-86">
-          <mxGeometry y="90" width="850" height="30" as="geometry" />
+        <mxCell id="2wye05OY2RIs6DNp3Of_-89" value="3. Realtime data is ingested in Azure Event Hub Premium which provides &#xa;    predictable latency with capablity to capture data into datalake&#xa;4. Azure Functions is used to process events and implement CRUD on OLTP database&#xa;    which is Azure PostgreSQL Hyperscale. &#xa;    It also uses metadata to enrich and augment processed events.&#xa;    This can be hosted in AKS, Containers Apps and as consumption plan with autoscaling&#xa;5. This is a metadata store used to enrich ingested events. &#xa;6. OLTP store for events and batch data. Azure Postgresql hyperscale used which provides &#xa;    ACID capablities, JSON support and HTAP processing for near realtime analytics&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="2wye05OY2RIs6DNp3Of_-86">
+          <mxGeometry y="100" width="1140" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
