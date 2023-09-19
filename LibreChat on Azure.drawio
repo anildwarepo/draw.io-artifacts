@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T19:45:29.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" etag="yN6iyXudS9e-gTKoDAwN" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T21:57:17.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" etag="JbUvJvFC4j_9ewFCgS0Y" version="21.7.5" type="github">
   <diagram name="Page-1" id="mzUrPmzuOhgMsMl1vgsM">
     <mxGraphModel dx="1952" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dDXORIaIdFGqrAWegqCn-2" value="Azure Region" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="500" y="70" width="1070" height="760" as="geometry" />
+        <mxCell id="dDXORIaIdFGqrAWegqCn-2" value="Azure Region" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="40" width="1270" height="860" as="geometry" />
         </mxCell>
         <mxCell id="dDXORIaIdFGqrAWegqCn-3" value="On prem users&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.on_premises_user;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="120" y="385.5" width="49" height="59" as="geometry" />
@@ -13,127 +13,127 @@
         <mxCell id="dDXORIaIdFGqrAWegqCn-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="50" y="275" width="220" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-5" value="Azure Virtual Network" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-5" value="Azure Virtual Network" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="100" width="230" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="110" width="20" height="11.94" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-7" value="Gateway Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-7" value="Gateway Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="340" width="130" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-8" value="ContainerApp Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-8" value="ContainerApp Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="150" width="130" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-9" value="PE Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-9" value="PE Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="530" width="130" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-10" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-10" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="100" width="230" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-11" value="container app &lt;br style=&quot;font-size: 14px;&quot;&gt;environment" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Container_App_Environments.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-11" value="container app &lt;br style=&quot;font-size: 14px;&quot;&gt;environment" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Container_App_Environments.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="190.5" width="39" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="160" width="190" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-12" value="Container App Instances&lt;br style=&quot;font-size: 14px;&quot;&gt;-min replicas&lt;br style=&quot;font-size: 14px;&quot;&gt;-max replicas" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-12" value="Container App Instances&lt;br style=&quot;font-size: 14px;&quot;&gt;-min replicas&lt;br style=&quot;font-size: 14px;&quot;&gt;-max replicas" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Worker_Container_App.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="173.5" width="68" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-14" value="API Management Resource" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/app_services/API_Management_Services.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-14" value="API Management Resource" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/app_services/API_Management_Services.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="891" y="403.62" width="68" height="62.77" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-15" value="APIM PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-15" value="APIM PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="570" width="32.73" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-14" target="dDXORIaIdFGqrAWegqCn-15" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-14" target="dDXORIaIdFGqrAWegqCn-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="-80" as="sourcePoint" />
             <mxPoint x="810" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-17" value="CosmosDB Resource" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/CosmosDB.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-17" value="CosmosDB Resource" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/CosmosDB.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="909" y="530" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-18" value="CosmosDB PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-18" value="CosmosDB PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="640" width="32.73" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.42;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.611;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-17" target="dDXORIaIdFGqrAWegqCn-18" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.42;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.611;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-17" target="dDXORIaIdFGqrAWegqCn-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="770" y="570" as="sourcePoint" />
             <mxPoint x="820" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-20" value="Azure OpenAI Resource" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-20" value="Azure OpenAI Resource" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="899.5" y="640" width="69" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-21" value="Azure OpenAI PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-21" value="Azure OpenAI PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="583.13" y="708" width="32.73" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-20" target="dDXORIaIdFGqrAWegqCn-21" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-20" target="dDXORIaIdFGqrAWegqCn-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="770" y="570" as="sourcePoint" />
             <mxPoint x="820" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-23" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1101" y="195" width="170" height="240" as="geometry" />
+        <mxCell id="dDXORIaIdFGqrAWegqCn-23" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1091" y="100" width="170" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-24" value="API Management" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/app_services/API_Management_Services.svg;" parent="1" vertex="1">
-          <mxGeometry x="1151" y="261.73" width="68" height="62.77" as="geometry" />
+        <mxCell id="dDXORIaIdFGqrAWegqCn-24" value="API Management" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/app_services/API_Management_Services.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1141" y="166.73000000000002" width="68" height="62.77" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-23" target="dDXORIaIdFGqrAWegqCn-23" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-23" target="dDXORIaIdFGqrAWegqCn-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-27" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-27" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="1370" y="335" width="170" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-14" target="dDXORIaIdFGqrAWegqCn-24" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-14" target="dDXORIaIdFGqrAWegqCn-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="570" as="sourcePoint" />
             <mxPoint x="1300" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-30" value="Azure OpenAI Deployment" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-30" value="Azure OpenAI Deployment" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="1420" y="397" width="69" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-20" target="dDXORIaIdFGqrAWegqCn-30" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-20" target="dDXORIaIdFGqrAWegqCn-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="570" as="sourcePoint" />
             <mxPoint x="1300" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-12" target="dDXORIaIdFGqrAWegqCn-24" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-12" target="dDXORIaIdFGqrAWegqCn-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="570" as="sourcePoint" />
             <mxPoint x="1300" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.029;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-24" target="dDXORIaIdFGqrAWegqCn-30" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.029;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1261" y="665" as="sourcePoint" />
-            <mxPoint x="1311" y="615" as="targetPoint" />
+            <mxPoint x="1251" y="570" as="sourcePoint" />
+            <mxPoint x="1410" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-35" value="VPN Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Virtual_Network_Gateways.svg;" parent="1" vertex="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-35" value="VPN Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Virtual_Network_Gateways.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="583.13" y="390.5" width="36.93" height="49" as="geometry" />
         </mxCell>
         <mxCell id="dDXORIaIdFGqrAWegqCn-36" value="On-prem users" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.on_premises_user;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="136" y="376" width="49" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-37" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="465" width="170" height="240" as="geometry" />
+        <mxCell id="dDXORIaIdFGqrAWegqCn-37" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="370" width="170" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-38" value="MongoDB Containers" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/CosmosDB.svg;" parent="1" vertex="1">
-          <mxGeometry x="1151" y="525" width="50" height="50" as="geometry" />
+        <mxCell id="dDXORIaIdFGqrAWegqCn-38" value="MongoDB Containers" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/CosmosDB.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1141" y="430" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.659;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-12" target="dDXORIaIdFGqrAWegqCn-38" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.659;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-12" target="dDXORIaIdFGqrAWegqCn-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="830" y="570" as="sourcePoint" />
             <mxPoint x="880" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.02;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-17" target="dDXORIaIdFGqrAWegqCn-38" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.02;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-17" target="dDXORIaIdFGqrAWegqCn-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="830" y="570" as="sourcePoint" />
             <mxPoint x="880" y="520" as="targetPoint" />
@@ -148,11 +148,23 @@
         <mxCell id="dDXORIaIdFGqrAWegqCn-47" value="ExpressRoute/S2S VPN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="320" y="350" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dDXORIaIdFGqrAWegqCn-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.923;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="dDXORIaIdFGqrAWegqCn-11" target="dDXORIaIdFGqrAWegqCn-12" edge="1">
+        <mxCell id="dDXORIaIdFGqrAWegqCn-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.923;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="dDXORIaIdFGqrAWegqCn-11" target="dDXORIaIdFGqrAWegqCn-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="610" as="sourcePoint" />
             <mxPoint x="830" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="644" width="619" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-2" value="Azure Key Vault&lt;br&gt;-Cosmosdb connection string&lt;br&gt;-APIM API-Key&lt;br&gt;-OpenID Client Secret" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="690" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-3" value="LibreChat Container Repo" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1376.53" y="701.5" width="47.93" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-4" value="Azure Monitor&lt;br&gt;Container System Logs&lt;br&gt;Contains system metrics&lt;br&gt;Cosmos DB RU&lt;br&gt;APIM Monitoring" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/other/Azure_Monitor_Dashboard.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="696.4" width="44.76" height="41.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
