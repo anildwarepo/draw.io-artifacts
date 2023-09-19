@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T21:57:17.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" etag="JbUvJvFC4j_9ewFCgS0Y" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T22:01:34.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" etag="M3uajPewj1_zznAAhZ_t" version="21.7.5" type="github">
   <diagram name="Page-1" id="mzUrPmzuOhgMsMl1vgsM">
     <mxGraphModel dx="1952" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="50" y="275" width="220" height="300" as="geometry" />
         </mxCell>
         <mxCell id="dDXORIaIdFGqrAWegqCn-5" value="Azure Virtual Network" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="100" width="230" height="710" as="geometry" />
+          <mxGeometry x="520" y="100" width="230" height="760" as="geometry" />
         </mxCell>
         <mxCell id="dDXORIaIdFGqrAWegqCn-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="110" width="20" height="11.94" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="540" y="530" width="130" height="260" as="geometry" />
         </mxCell>
         <mxCell id="dDXORIaIdFGqrAWegqCn-10" value="Azure Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="100" width="230" height="710" as="geometry" />
+          <mxGeometry x="810" y="100" width="230" height="760" as="geometry" />
         </mxCell>
         <mxCell id="dDXORIaIdFGqrAWegqCn-11" value="container app &lt;br style=&quot;font-size: 14px;&quot;&gt;environment" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Container_App_Environments.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="190.5" width="39" height="39" as="geometry" />
@@ -154,16 +154,16 @@
             <mxPoint x="830" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1091" y="644" width="619" height="216" as="geometry" />
         </mxCell>
-        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-2" value="Azure Key Vault&lt;br&gt;-Cosmosdb connection string&lt;br&gt;-APIM API-Key&lt;br&gt;-OpenID Client Secret" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-2" value="Azure Key Vault&lt;br style=&quot;font-size: 14px;&quot;&gt;-Cosmosdb connection string&lt;br style=&quot;font-size: 14px;&quot;&gt;-APIM API-Key&lt;br style=&quot;font-size: 14px;&quot;&gt;-OpenID Client Secret" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=14;image=img/lib/azure2/security/Key_Vaults.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="690" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-3" value="LibreChat Container Repo" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1376.53" y="701.5" width="47.93" height="43" as="geometry" />
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-3" value="LibreChat Container Repo" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/containers/Container_Registries.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="708" width="47.93" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-4" value="Azure Monitor&lt;br&gt;Container System Logs&lt;br&gt;Contains system metrics&lt;br&gt;Cosmos DB RU&lt;br&gt;APIM Monitoring" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/other/Azure_Monitor_Dashboard.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="o1jkTIw-ZMiTzU3uPu1I-4" value="Azure Monitor&lt;br style=&quot;font-size: 14px;&quot;&gt;Container System Logs&lt;br style=&quot;font-size: 14px;&quot;&gt;Contains system metrics&lt;br style=&quot;font-size: 14px;&quot;&gt;Cosmos DB RU&lt;br style=&quot;font-size: 14px;&quot;&gt;APIM Monitoring" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=14;image=img/lib/azure2/other/Azure_Monitor_Dashboard.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="696.4" width="44.76" height="41.6" as="geometry" />
         </mxCell>
       </root>
