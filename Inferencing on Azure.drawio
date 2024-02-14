@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T20:00:40.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="KBNBhYi3ueDHwXA3NQ4w" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T20:01:44.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Qh0g-5JUZIVICxlUGdXE" version="23.1.1" type="github">
   <diagram id="L2hyXpvMp3_cJZaIQRUS" name="Page-1">
-    <mxGraphModel dx="1360" dy="1261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yqgeu6GSzK-t_FfsDq8R-1" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="yqgeu6GSzK-t_FfsDq8R-1" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="140" y="190" width="570" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="yqgeu6GSzK-t_FfsDq8R-2" value="VNet" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="yqgeu6GSzK-t_FfsDq8R-2" value="VNet" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="150" y="210" width="540" height="300" as="geometry" />
         </mxCell>
       </root>
