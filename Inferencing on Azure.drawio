@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T09:09:28.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="gYo1sf7cnfWtjKjM7CFI" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-15T09:13:28.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="ogFWnHAenF16F2WEE-H6" version="23.1.1" type="github" pages="2">
   <diagram id="L2hyXpvMp3_cJZaIQRUS" name="AIS on Azure">
     <mxGraphModel dx="942" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -318,7 +318,7 @@
             <mxPoint x="520" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gJZqbROWMk6fM5ZBNOkP-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.36;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gJZqbROWMk6fM5ZBNOkP-130" target="gJZqbROWMk6fM5ZBNOkP-121">
+        <mxCell id="gJZqbROWMk6fM5ZBNOkP-136" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.36;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gJZqbROWMk6fM5ZBNOkP-130" target="gJZqbROWMk6fM5ZBNOkP-121">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="180" as="sourcePoint" />
             <mxPoint x="520" y="130" as="targetPoint" />
@@ -353,6 +353,36 @@
         </mxCell>
         <mxCell id="gJZqbROWMk6fM5ZBNOkP-143" value="Register Model using MLFlow and MLClient" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.286;entryY=0.957;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.025;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gJZqbROWMk6fM5ZBNOkP-121" target="gJZqbROWMk6fM5ZBNOkP-130">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="40" as="sourcePoint" />
+            <mxPoint x="410" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.912;exitY=0.377;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.552;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gJZqbROWMk6fM5ZBNOkP-121" target="gJZqbROWMk6fM5ZBNOkP-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="40" as="sourcePoint" />
+            <mxPoint x="580" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-3" value="Prediction Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-4" value="Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-5" value="Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="375.08000000000004" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="832.78" y="640" width="60" height="66.75" as="geometry" />
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Event_Hubs.svg;" vertex="1" parent="f3dVidfuAkUGZWxmeIxb-11">
+          <mxGeometry x="9.480000000000018" width="41.04" height="36.75" as="geometry" />
+        </mxCell>
+        <mxCell id="f3dVidfuAkUGZWxmeIxb-9" value="Event Hub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f3dVidfuAkUGZWxmeIxb-11">
+          <mxGeometry y="36.75" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
