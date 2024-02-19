@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T22:09:20.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="PCLMeUDLTdmY3R2CbyBF" version="23.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-19T22:12:28.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="r-r9bBUjVVm_YKo7hZAa" version="23.1.1" type="github" pages="3">
   <diagram id="L2hyXpvMp3_cJZaIQRUS" name="AIS on Azure">
     <mxGraphModel dx="1464" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -567,7 +567,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E5sF3pDt6hXpBpIzhNAL" name="Online Endpoints">
-    <mxGraphModel dx="1360" dy="2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="453" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -846,6 +846,12 @@
             <mxPoint x="1004.4827586206898" y="-545" as="sourcePoint" />
             <mxPoint x="930" y="-680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qs0AghsEsn2MXTZR3vRr-40" value="Ondemand and Scheduled invocations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-915" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qs0AghsEsn2MXTZR3vRr-41" value="REST APIs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-915" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
