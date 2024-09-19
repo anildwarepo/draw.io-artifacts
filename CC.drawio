@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14" pages="3">
   <diagram name="Azure Architecture" id="gnfb7jUYX35AvRDUPc-q">
     <mxGraphModel dx="2290" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eQUgV46e3FUS0auFHxmV" name="Multi Tenant Design">
+  <diagram id="eQUgV46e3FUS0auFHxmV" name="KV Store Design - Option 1">
     <mxGraphModel dx="1224" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -252,19 +252,16 @@
           <mxGeometry x="862" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4z7jsk1ujIdJ2KFVXQdr-10" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="30" y="390" width="970" height="140" as="geometry" />
+          <mxGeometry x="30" y="270" width="970" height="140" as="geometry" />
         </mxCell>
         <mxCell id="JQEDODdQ16ti5iI2Kcjq-1" value="Microservices" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="380" y="405" width="260" height="110" as="geometry" />
+          <mxGeometry x="380" y="285" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tetmFcZ6_N3hryW2dEhK-1" value="AKS Automatic" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/AKS_Automatic.svg;" vertex="1" parent="1">
-          <mxGeometry x="470" y="420" width="68" height="68" as="geometry" />
+          <mxGeometry x="470" y="300" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="tetmFcZ6_N3hryW2dEhK-2" value="Key Value Store Tenant 1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="30" y="570" width="510" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="tetmFcZ6_N3hryW2dEhK-3" value="Personalization Engine Vector DB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="564" y="570" width="440" height="140" as="geometry" />
+          <mxGeometry x="30" y="570" width="820" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9SyXtvsTvvVfQIOOQ1zj-1" value="Azure Cosmos DB&lt;div&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
           <mxGeometry x="233" y="690.0000000000001" width="34" height="34" as="geometry" />
@@ -287,11 +284,11 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-7" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="434" y="585" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="Shared Provisioned&lt;div&gt;Throughput&lt;/div&gt;&lt;div&gt;across containers&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="450" y="616.5" width="100" height="30" as="geometry" />
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="504" y="613" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="h9U_5kjy8NLN7pSxZe86-10" value="Key Value Store Tenant 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="30" y="800" width="510" height="200" as="geometry" />
+          <mxGeometry x="30" y="800" width="820" height="200" as="geometry" />
         </mxCell>
         <mxCell id="h9U_5kjy8NLN7pSxZe86-11" value="Azure Cosmos DB&lt;div&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
           <mxGeometry x="233" y="920.0000000000001" width="34" height="34" as="geometry" />
@@ -314,9 +311,104 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-17" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="434" y="815" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="h9U_5kjy8NLN7pSxZe86-18" value="Shared Provisioned&lt;div&gt;Throughput&lt;/div&gt;&lt;div&gt;across containers&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="450" y="846.5" width="100" height="30" as="geometry" />
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-1" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="504" y="837" width="286" height="117" as="geometry" />
         </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1070" as="sourcePoint" />
+            <mxPoint x="990" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-3" value="Option 1 - Scale by Tenant " style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-4" value="Key Value Store for Shopper Session" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="570" width="820" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-5" value="Azure Cosmos DB&lt;div&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="1283" y="690.0000000000001" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-6" value="Shopper&lt;div&gt;Session&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="600" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-11" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="585" width="35" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-12" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="613" width="286" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-16" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-13" target="e5Dur0RvdEX-e_nDF4gT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-13" value="Tenant 1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-14" value="Tenant 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-15" value="Tenant 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-17" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-14" target="e5Dur0RvdEX-e_nDF4gT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="490" as="sourcePoint" />
+            <mxPoint x="1389" y="629" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-18" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="e5Dur0RvdEX-e_nDF4gT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="480" as="sourcePoint" />
+            <mxPoint x="1420" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-19" value="Key Value Store for Shopper Info" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="920" width="820" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-20" value="Azure Cosmos DB&lt;div&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="1283" y="1040" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-21" value="Shopper&lt;div&gt;Info&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="950" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-22" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="935" width="35" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-23" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="963" width="286" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-24" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-25" target="e5Dur0RvdEX-e_nDF4gT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-25" value="Tenant 1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-26" value="Tenant 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-27" value="Tenant 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-28" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-26" target="e5Dur0RvdEX-e_nDF4gT-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="840" as="sourcePoint" />
+            <mxPoint x="1389" y="979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-29" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="e5Dur0RvdEX-e_nDF4gT-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="830" as="sourcePoint" />
+            <mxPoint x="1420" y="951" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LVE3H-cp7QLdIQ-c2j1w" name="Vector Store Design">
+    <mxGraphModel dx="1224" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
