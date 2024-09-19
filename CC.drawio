@@ -284,7 +284,7 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-7" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="434" y="585" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;li&gt;RU will be overprovisioned if the containers do not have uniform R/W&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="504" y="613" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="h9U_5kjy8NLN7pSxZe86-10" value="Key Value Store Tenant 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
@@ -311,7 +311,7 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-17" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="434" y="815" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="e5Dur0RvdEX-e_nDF4gT-1" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-1" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;li&gt;RU will be overprovisioned if the containers do not have uniform R/W&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="504" y="837" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=0;" edge="1" parent="1">
@@ -335,7 +335,7 @@
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-11" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1484" y="585" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="e5Dur0RvdEX-e_nDF4gT-12" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-12" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;li&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1554" y="613" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-16" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-13" target="e5Dur0RvdEX-e_nDF4gT-6">
@@ -374,9 +374,6 @@
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-22" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1484" y="935" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="e5Dur0RvdEX-e_nDF4gT-23" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1554" y="963" width="286" height="117" as="geometry" />
-        </mxCell>
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-24" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-25" target="e5Dur0RvdEX-e_nDF4gT-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -400,6 +397,9 @@
             <mxPoint x="1370" y="830" as="sourcePoint" />
             <mxPoint x="1420" y="951" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IBoFne4YMoGLUDeQI9Kx-1" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;li&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="961.5" width="286" height="117" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
