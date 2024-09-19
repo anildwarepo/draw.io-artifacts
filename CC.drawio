@@ -284,7 +284,7 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-7" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="434" y="585" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;li&gt;RU will be overprovisioned if the containers do not have uniform R/W&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;To scale add more RUs to database&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;RU will be overprovisioned if the containers do not have uniform R/W&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="504" y="613" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="h9U_5kjy8NLN7pSxZe86-10" value="Key Value Store Tenant 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
@@ -311,7 +311,7 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-17" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="434" y="815" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="e5Dur0RvdEX-e_nDF4gT-1" value="&lt;ul&gt;&lt;li&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li&gt;To scale add more RUs to database&lt;/li&gt;&lt;li&gt;RU will be overprovisioned if the containers do not have uniform R/W&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-1" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Shared Provisioned Throughput across containers&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Assumption is R/W are uniform across containers&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;To scale add more RUs to database&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;RU will be overprovisioned if the containers do not have uniform R/W&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="504" y="837" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=0;" edge="1" parent="1">
@@ -335,8 +335,8 @@
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-11" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1484" y="585" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="e5Dur0RvdEX-e_nDF4gT-12" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;li&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1554" y="613" width="286" height="117" as="geometry" />
+        <mxCell id="e5Dur0RvdEX-e_nDF4gT-12" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Shard by Merchant and Shopper ID&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;To scale add more RUs to container&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="613" width="286" height="127" as="geometry" />
         </mxCell>
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-16" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="e5Dur0RvdEX-e_nDF4gT-13" target="e5Dur0RvdEX-e_nDF4gT-6">
           <mxGeometry relative="1" as="geometry" />
@@ -398,17 +398,118 @@
             <mxPoint x="1420" y="951" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBoFne4YMoGLUDeQI9Kx-1" value="&lt;ul&gt;&lt;li&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li&gt;Shard by Merchant and Shopper ID&lt;br&gt;&lt;/li&gt;&lt;li&gt;To scale add more RUs to container&lt;br&gt;&lt;/li&gt;&lt;li&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="961.5" width="286" height="117" as="geometry" />
+        <mxCell id="IBoFne4YMoGLUDeQI9Kx-1" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Shard by Merchant and Shopper ID&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;To scale add more RUs to container&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="961.5" width="286" height="128.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="LVE3H-cp7QLdIQ-c2j1w" name="Vector Store Design">
-    <mxGraphModel dx="1224" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="374" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HObDy8vvisQGP7bvmT_j-1" value="Vector DB with Azure AI Search" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="980" y="400" width="1000" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-4" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="446" width="35" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-5" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="HObDy8vvisQGP7bvmT_j-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="498.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-6" value="Tenant 1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="970" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-7" value="Tenant 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1103" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-8" value="Tenant n" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-9" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HObDy8vvisQGP7bvmT_j-7" target="WF7G5SDQvtkjfG36kLuw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="370" as="sourcePoint" />
+            <mxPoint x="1192.692423924783" y="480.8079737126327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-10" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="WF7G5SDQvtkjfG36kLuw-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="360" as="sourcePoint" />
+            <mxPoint x="1208.7855203209012" y="481.17997422450844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HObDy8vvisQGP7bvmT_j-11" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Scale by adding new index per tenant. for e.g S2&amp;nbsp; tier supports 200 indexes.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Add paritions if index size increases&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Can use high density tier for smaller indexes per tenant. for e.g 3000 indexes per service. 100 GB max index size.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Add replicas to increase throughput.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Index size can vary across tenants&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="492" width="320" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="WF7G5SDQvtkjfG36kLuw-1" value="Azure AI Search" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="577.77" width="48" height="34.67" as="geometry" />
+        </mxCell>
+        <mxCell id="WF7G5SDQvtkjfG36kLuw-3" value="Full Text Index Tenant 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="480" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="WF7G5SDQvtkjfG36kLuw-5" value="Full Text Index Tenant 2" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="562.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="WF7G5SDQvtkjfG36kLuw-7" value="Full Text Index Tenant n" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="650" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-1" value="Vector Field 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="453.4999999999999" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-2" value="Vector Field n" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="499.9999999999999" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WF7G5SDQvtkjfG36kLuw-3" target="qu6x-dQFlCsUxhPnoOAu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="610" as="sourcePoint" />
+            <mxPoint x="1440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WF7G5SDQvtkjfG36kLuw-3" target="qu6x-dQFlCsUxhPnoOAu-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="509" as="sourcePoint" />
+            <mxPoint x="1380" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-7" value="Vector Field 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="534.7199999999999" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-8" value="Vector Field n" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="581.2199999999999" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="qu6x-dQFlCsUxhPnoOAu-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="580.22" as="sourcePoint" />
+            <mxPoint x="1440" y="641.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="qu6x-dQFlCsUxhPnoOAu-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="580.22" as="sourcePoint" />
+            <mxPoint x="1380" y="561.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-11" value="Vector Field 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="623.4999999999999" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-12" value="Vector Field n" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="669.9999999999999" width="25" height="27.78" as="geometry" />
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="qu6x-dQFlCsUxhPnoOAu-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="669" as="sourcePoint" />
+            <mxPoint x="1440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qu6x-dQFlCsUxhPnoOAu-14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="qu6x-dQFlCsUxhPnoOAu-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="669" as="sourcePoint" />
+            <mxPoint x="1380" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
