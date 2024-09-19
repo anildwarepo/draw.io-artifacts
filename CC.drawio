@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14">
-  <diagram name="Page-1" id="gnfb7jUYX35AvRDUPc-q">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14" pages="2">
+  <diagram name="Azure Architecture" id="gnfb7jUYX35AvRDUPc-q">
     <mxGraphModel dx="2290" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -215,6 +215,107 @@
         </mxCell>
         <mxCell id="B-g0GHxNa2EQ3O3tPcXf-67" value="Hadoop/DW Systems" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_partition_5.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="10" y="1546.5" width="50" height="37" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eQUgV46e3FUS0auFHxmV" name="Multi Tenant Design">
+    <mxGraphModel dx="1224" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-1" value="Merchant&#39;s Azure Tenant 1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="304" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-2" value="Paypa; Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="44" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-3" value="Telemetry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-4" value="Merchant&#39;s Azure Tenant 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="304" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-5" value="Paypa; Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-6" value="Telemetry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-7" value="Merchant&#39;s Azure Tenant n" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="304" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-8" value="Paypa; Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="714" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-9" value="Telemetry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="862" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4z7jsk1ujIdJ2KFVXQdr-10" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="970" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JQEDODdQ16ti5iI2Kcjq-1" value="Microservices" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="380" y="405" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tetmFcZ6_N3hryW2dEhK-1" value="AKS Automatic" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/AKS_Automatic.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="tetmFcZ6_N3hryW2dEhK-2" value="Key Value Store Tenant 1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="570" width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tetmFcZ6_N3hryW2dEhK-3" value="Personalization Engine Vector DB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="564" y="570" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9SyXtvsTvvVfQIOOQ1zj-1" value="Azure Cosmos DB&lt;div&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="233" y="690.0000000000001" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-1" value="Shopper&lt;div&gt;Session&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="44" y="613" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-2" value="Shopper&lt;div&gt;Info&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="300" y="613" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-3" value="Consent" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="384" y="613" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-4" value="Payment&lt;div&gt;Ready&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="613" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-5" value="Personalization&lt;div&gt;Engine KV store&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="613" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-7" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="434" y="585" width="35" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="Shared Provisioned&lt;div&gt;Throughput&lt;/div&gt;&lt;div&gt;across containers&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="616.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-10" value="Key Value Store Tenant 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="800" width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-11" value="Azure Cosmos DB&lt;div&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="233" y="920.0000000000001" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-12" value="Shopper&lt;div&gt;Session&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="44" y="843" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-13" value="Shopper&lt;div&gt;Info&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="300" y="843" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-14" value="Consent" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="384" y="843" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-15" value="Payment&lt;div&gt;Ready&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="843" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-16" value="Personalization&lt;div&gt;Engine KV store&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="843" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-17" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="434" y="815" width="35" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-18" value="Shared Provisioned&lt;div&gt;Throughput&lt;/div&gt;&lt;div&gt;across containers&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="846.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
