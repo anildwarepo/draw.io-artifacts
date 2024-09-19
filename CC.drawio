@@ -7,7 +7,7 @@
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-2" value="Merchant&#39;s Azure Tenant" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="170" y="90" width="580" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="gi6rzPIruWYGB9gZ6tYF-3" value="d" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="90" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-4" value="Shopper Insights on Azure" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
