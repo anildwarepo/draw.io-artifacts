@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14" pages="4">
   <diagram name="Azure Architecture" id="gnfb7jUYX35AvRDUPc-q">
-    <mxGraphModel dx="3075" dy="2060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2733" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,9 +320,6 @@
             <mxPoint x="990" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5Dur0RvdEX-e_nDF4gT-3" value="Option 1 - Scale by Tenant " style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="30" y="510" width="220" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="e5Dur0RvdEX-e_nDF4gT-4" value="Key Value Store for Shopper Session" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1080" y="570" width="820" height="200" as="geometry" />
         </mxCell>
@@ -400,6 +397,12 @@
         </mxCell>
         <mxCell id="IBoFne4YMoGLUDeQI9Kx-1" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Dedicated RUs per Container&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Shard by Merchant and Shopper ID&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;To scale add more RUs to container&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Can create hot partitions if one tenant has higher R/W than the other&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;In this case a different partition key needs to be selected&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1560" y="961.5" width="286" height="128.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8kXuGTwGnu-UT0BRvRCw-1" value="Option 2 - Multiple Tenants per KV Store" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="370" width="317" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8kXuGTwGnu-UT0BRvRCw-2" value="Option 1 - KV Store Per Tenant" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
