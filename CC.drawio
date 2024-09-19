@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.13">
   <diagram name="Page-1" id="gnfb7jUYX35AvRDUPc-q">
-    <mxGraphModel dx="2014" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3736" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,16 +14,16 @@
           <mxGeometry x="-190" y="360" width="1330" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-9" value="Virtual network" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="400" width="1200" height="990" as="geometry" />
+          <mxGeometry x="-180" y="400" width="1200" height="600" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-10" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
           <mxGeometry x="-90" y="400" width="40" height="23.88" as="geometry" />
         </mxCell>
-        <mxCell id="gi6rzPIruWYGB9gZ6tYF-11" value="Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="440" width="900" height="150" as="geometry" />
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-11" value="App Gateway Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-12" value="App Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Application_Gateways.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="64" height="64" as="geometry" />
+          <mxGeometry x="260" y="480" width="44" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="260" width="79.5" height="79.5" as="geometry" />
@@ -31,11 +31,14 @@
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-14" value="API Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-150" y="610" width="1150" height="230" as="geometry" />
         </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-56" value="Microservices" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="640" width="1130" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-15" value="AKS Automatic" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/AKS_Automatic.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="740" width="68" height="68" as="geometry" />
+          <mxGeometry x="357" y="740" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-16" value="Shopper Session Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="-130" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-17" value="Entra ID&lt;div&gt;for OAuth&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Entra_Managed_Identities.svg;" vertex="1" parent="1">
           <mxGeometry x="1060" y="709.56" width="68" height="60.440000000000005" as="geometry" />
@@ -44,88 +47,106 @@
           <mxGeometry x="292.8" y="490.22" width="15.2" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" vertex="1" parent="1">
-          <mxGeometry x="308" y="770" width="18" height="23.68" as="geometry" />
+          <mxGeometry x="419" y="784.32" width="18" height="23.68" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-21" value="Shopper Orchestrator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="40" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-22" value="Payment Ready" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="202" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-23" value="Telemetry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="370" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-24" value="CCMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="530" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-25" value="DAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="696" width="140" height="44" as="geometry" />
+          <mxGeometry x="-130" y="740" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-26" value="Personalization Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="845" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-29" value="Pub Sub" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-155" y="1010" width="565" height="190" as="geometry" />
+          <mxGeometry x="-157" y="1010" width="565" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-52" value="Azure Service Bus" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="1030" width="540" height="160" as="geometry" />
+          <mxGeometry x="-142" y="1030" width="540" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-31" value="Azure Service Bus" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Service_Bus.svg;" vertex="1" parent="1">
-          <mxGeometry x="110.25" y="1135.43" width="34.5" height="30.44" as="geometry" />
+          <mxGeometry x="108.25" y="1135.43" width="34.5" height="30.44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-33" value="Topics/Subscriptions" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="43" y="1060" width="32.5" height="39" as="geometry" />
+          <mxGeometry x="41" y="1060" width="32.5" height="39" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-34" value="Shopper Identification&lt;div&gt;Service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="640" width="140" height="44" as="geometry" />
+          <mxGeometry x="690" y="665.56" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-37" value="K/V Store on Azure Cosmos DB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1010" width="365" height="190" as="geometry" />
+          <mxGeometry x="423" y="1010" width="365" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-50" value="Cosmos DB Collections" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="435" y="1040" width="345" height="150" as="geometry" />
+          <mxGeometry x="433" y="1040" width="345" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-38" value="Azure Cosmos DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
-          <mxGeometry x="583" y="1133.65" width="34" height="34" as="geometry" />
+          <mxGeometry x="581" y="1133.65" width="34" height="34" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-39" value="Shopper&lt;div&gt;Session&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;imageBackground=none;" vertex="1" parent="1">
-          <mxGeometry x="437" y="1072" width="50" height="37" as="geometry" />
+          <mxGeometry x="435" y="1072" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-42" value="Shopper&lt;div&gt;Info&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
-          <mxGeometry x="502" y="1072" width="50" height="37" as="geometry" />
+          <mxGeometry x="500" y="1072" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-43" value="Consent" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
-          <mxGeometry x="562" y="1072" width="50" height="37" as="geometry" />
+          <mxGeometry x="560" y="1072" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-44" value="Payment&lt;div&gt;Ready&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
-          <mxGeometry x="622" y="1072" width="50" height="37" as="geometry" />
+          <mxGeometry x="620" y="1072" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-45" value="Personalization&lt;div&gt;Engine KV store&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
-          <mxGeometry x="702" y="1072" width="50" height="37" as="geometry" />
+          <mxGeometry x="700" y="1072" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-46" value="Personalization Engine Search" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1010" width="210" height="190" as="geometry" />
+          <mxGeometry x="798" y="1010" width="210" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gi6rzPIruWYGB9gZ6tYF-51" value="Azure Ai Search" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1040" width="190" height="150" as="geometry" />
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-51" value="Azure AI Search" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="808" y="1040" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-47" value="Azure AI Search" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="881" y="1126.49" width="48" height="34.67" as="geometry" />
+          <mxGeometry x="879" y="1126.49" width="48" height="34.67" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-48" value="Vector DB" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_cube.svg;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1067.61" width="25" height="27.78" as="geometry" />
+          <mxGeometry x="818" y="1067.61" width="25" height="27.78" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-49" value="Full Text Index" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
-          <mxGeometry x="929" y="1063" width="50" height="37" as="geometry" />
+          <mxGeometry x="927" y="1063" width="50" height="37" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-53" value="Topics/Subscriptions" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="168" y="1060" width="32.5" height="39" as="geometry" />
+          <mxGeometry x="166" y="1060" width="32.5" height="39" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-54" value="Topics/Subscriptions" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="292.8" y="1060" width="32.5" height="39" as="geometry" />
+          <mxGeometry x="290.8" y="1060" width="32.5" height="39" as="geometry" />
         </mxCell>
         <mxCell id="gi6rzPIruWYGB9gZ6tYF-55" value="Topics/Subscriptions" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus_topics_and_subscriptions;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-82.5" y="1062" width="32.5" height="39" as="geometry" />
+          <mxGeometry x="-84.5" y="1062" width="32.5" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-57" value="PE Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="870" width="1150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-58" value="Azure Service Bus&lt;div&gt;PE&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Private_Endpoints.svg;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="901.93" width="38" height="36.15" as="geometry" />
+        </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-59" value="Cosmos DB&lt;div&gt;PE&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Private_Endpoints.svg;" vertex="1" parent="1">
+          <mxGeometry x="406" y="901.93" width="38" height="36.15" as="geometry" />
+        </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-60" value="AI Search PE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Private_Endpoints.svg;" vertex="1" parent="1">
+          <mxGeometry x="850" y="901.93" width="38" height="36.15" as="geometry" />
+        </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-61" value="VNet Gateway Subnet" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="440" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gi6rzPIruWYGB9gZ6tYF-62" value="VPN Gateway" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" vertex="1" parent="1">
+          <mxGeometry x="-82.5" y="490.11" width="30.5" height="33.89" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
