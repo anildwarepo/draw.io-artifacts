@@ -270,7 +270,7 @@
           <mxGeometry x="470" y="300" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="tetmFcZ6_N3hryW2dEhK-2" value="Containers" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="30" y="570" width="900" height="300" as="geometry" />
+          <mxGeometry x="30" y="570" width="1210" height="300" as="geometry" />
         </mxCell>
         <mxCell id="9SyXtvsTvvVfQIOOQ1zj-1" value="Azure Cosmos DB&lt;div style=&quot;font-size: 16px;&quot;&gt;Account&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
           <mxGeometry x="235" y="780.0000000000001" width="34" height="34" as="geometry" />
@@ -293,8 +293,8 @@
         <mxCell id="h9U_5kjy8NLN7pSxZe86-7" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="434" y="585" width="35" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;Dedicated Provisioned Throughput per container&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;Tenant data is partitioned based on Merchant Id + Shopper ID(for e.g)&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;To scale add more RUs to containers&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;RU/s can also be auto scaled&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="504" y="590" width="416" height="160" as="geometry" />
+        <mxCell id="h9U_5kjy8NLN7pSxZe86-9" value="&lt;ul style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;Dedicated CosmosDB container for each KV store.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;Multiple Tenant data is stored in respective container.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;Dedicated Provisioned Throughput per container.&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;Tenant data is partitioned based on Merchant ID + Shopper ID(for e.g)&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;To scale add more RUs to containers&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;RU/s can also be auto scaled&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="504" y="590" width="696" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8kXuGTwGnu-UT0BRvRCw-2" value="KV Store Multi Tenant" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="520" width="280" height="40" as="geometry" />
@@ -495,7 +495,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HObDy8vvisQGP7bvmT_j-1" value="Vector DB with Azure AI Search" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="HObDy8vvisQGP7bvmT_j-1" value="Vector DB with Azure AI Search" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="940" y="380" width="1190" height="460" as="geometry" />
         </mxCell>
         <mxCell id="HObDy8vvisQGP7bvmT_j-4" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=center;verticalAlign=middle;rotation=0;textDirection=vertical-rl;horizontal=0;flipV=1;fontSize=16;" parent="1" vertex="1">
@@ -521,7 +521,7 @@
             <mxPoint x="1192.692423924783" y="480.8079737126327" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HObDy8vvisQGP7bvmT_j-10" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="WF7G5SDQvtkjfG36kLuw-7" edge="1">
+        <mxCell id="HObDy8vvisQGP7bvmT_j-10" value="R/W" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="WF7G5SDQvtkjfG36kLuw-7" edge="1" source="HObDy8vvisQGP7bvmT_j-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="360" as="sourcePoint" />
             <mxPoint x="1208.7855203209012" y="481.17997422450844" as="targetPoint" />
