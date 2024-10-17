@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GMWGArogqKXTZghxhm27" name="Basic Reflection Architecture">
-    <mxGraphModel dx="2380" dy="2516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2680" dy="2516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,12 +244,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Group Chat Flow" id="xf6dDxcTsh0-OO8BIodC">
-    <mxGraphModel dx="2290" dy="2433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4103" dy="3618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-0" />
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-1" parent="2vTPDlP_ir3RhMunH7Ak-0" />
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-2" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="-195" y="-250" width="1905" height="1050" as="geometry" />
+          <mxGeometry x="-195" y="-250" width="1555" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-3" value="Runtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
           <mxGeometry x="385" y="710" width="340" height="80" as="geometry" />
