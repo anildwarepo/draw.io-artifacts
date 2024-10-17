@@ -145,10 +145,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="witdVDeq5JE99Sofo1Yc-15" value="Tools" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="140" y="-50" width="90" height="75" as="geometry" />
+          <mxGeometry x="100" y="-50" width="90" height="75" as="geometry" />
         </mxCell>
         <mxCell id="witdVDeq5JE99Sofo1Yc-16" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-50" width="90" height="75" as="geometry" />
+          <mxGeometry x="210" y="-50" width="90" height="75" as="geometry" />
         </mxCell>
         <mxCell id="witdVDeq5JE99Sofo1Yc-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="witdVDeq5JE99Sofo1Yc-5" target="witdVDeq5JE99Sofo1Yc-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -207,6 +207,15 @@
             <mxPoint x="-30" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="23cE8Ws_Wy3yjUBSUBNo-1" value="Model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-50" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="23cE8Ws_Wy3yjUBSUBNo-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="23cE8Ws_Wy3yjUBSUBNo-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="100" as="sourcePoint" />
+            <mxPoint x="470" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -219,45 +228,39 @@
           <mxGeometry x="-195" y="-90" width="1905" height="890" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-3" value="Runtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="330" y="710" width="340" height="80" as="geometry" />
+          <mxGeometry x="385" y="710" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-4" value="Group Chat Topic&lt;div&gt;Generic Message Type&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="400" y="570" width="200" height="80" as="geometry" />
+          <mxGeometry x="455" y="570" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-5" value="Account Info Agent with Tools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
           <mxGeometry x="155" y="100" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-6" value="Group Chat Manager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="400" y="440" width="200" height="80" as="geometry" />
+          <mxGeometry x="455" y="440" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-3" target="2vTPDlP_ir3RhMunH7Ak-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="465" y="680" as="sourcePoint" />
-            <mxPoint x="358" y="650" as="targetPoint" />
+            <mxPoint x="520" y="680" as="sourcePoint" />
+            <mxPoint x="413" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-4" target="2vTPDlP_ir3RhMunH7Ak-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="375" y="530" as="sourcePoint" />
-            <mxPoint x="515" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2vTPDlP_ir3RhMunH7Ak-9" value="RAG Agent Message Type" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-6" target="2vTPDlP_ir3RhMunH7Ak-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="465" y="680" as="sourcePoint" />
-            <mxPoint x="330" y="390" as="targetPoint" />
+            <mxPoint x="430" y="530" as="sourcePoint" />
+            <mxPoint x="570" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-10" value="Final Response Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="990" y="78" width="200" height="80" as="geometry" />
+          <mxGeometry x="760" y="100" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2vTPDlP_ir3RhMunH7Ak-11" value="Final Response Topic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="990" y="208" width="200" height="80" as="geometry" />
+        <mxCell id="2vTPDlP_ir3RhMunH7Ak-11" value="Final Response Topic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
+          <mxGeometry x="760" y="230" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-12" value="Final Response Message Type" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-11" target="2vTPDlP_ir3RhMunH7Ak-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="348" as="sourcePoint" />
-            <mxPoint x="1210" y="298" as="targetPoint" />
+            <mxPoint x="930" y="370" as="sourcePoint" />
+            <mxPoint x="980" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-13" value="Tools" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
@@ -278,7 +281,7 @@
             <mxPoint x="475" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2vTPDlP_ir3RhMunH7Ak-17" value="Account Info Topic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
+        <mxCell id="2vTPDlP_ir3RhMunH7Ak-17" value="Account Info Topic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
           <mxGeometry x="155" y="230" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-18" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;RAG Agent Message Type&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-17" target="2vTPDlP_ir3RhMunH7Ak-5">
@@ -288,21 +291,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-20" value="Shared Queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSize=14;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="1360" y="78" width="60" height="80" as="geometry" />
+          <mxGeometry x="1130" y="100" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-21" value="App Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
-          <mxGeometry x="1220" y="688" width="340" height="80" as="geometry" />
+          <mxGeometry x="990" y="710" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-22" value="Publish final resposne" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-10" target="2vTPDlP_ir3RhMunH7Ak-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1070" y="378" as="sourcePoint" />
-            <mxPoint x="1120" y="328" as="targetPoint" />
+            <mxPoint x="840" y="400" as="sourcePoint" />
+            <mxPoint x="890" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Subscribe to final response&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-20" target="2vTPDlP_ir3RhMunH7Ak-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1070" y="378" as="sourcePoint" />
-            <mxPoint x="1120" y="328" as="targetPoint" />
+            <mxPoint x="840" y="400" as="sourcePoint" />
+            <mxPoint x="890" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2vTPDlP_ir3RhMunH7Ak-24" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
@@ -317,16 +320,31 @@
             <mxPoint x="-30" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcpHQfUdlsSOhaUVcR0U-0" value="Transaction Info Agent with Tools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
+        <mxCell id="xcpHQfUdlsSOhaUVcR0U-0" value="Transaction Info Agent with Tools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
           <mxGeometry x="450" y="100" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xcpHQfUdlsSOhaUVcR0U-1" value="Transaction Info Topic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
+        <mxCell id="xcpHQfUdlsSOhaUVcR0U-1" value="Transaction Info Topic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
           <mxGeometry x="450" y="230" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xcpHQfUdlsSOhaUVcR0U-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;RAG Agent Message Type&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="xcpHQfUdlsSOhaUVcR0U-1" target="xcpHQfUdlsSOhaUVcR0U-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="745" y="270" as="sourcePoint" />
             <mxPoint x="795" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXL9m71-PEpop8QitX5E-0" value="Group Chat Topic&lt;div&gt;Generic Message Type&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=16;" vertex="1" parent="2vTPDlP_ir3RhMunH7Ak-1">
+          <mxGeometry x="150" y="330" width="810" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lXL9m71-PEpop8QitX5E-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.327;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="2vTPDlP_ir3RhMunH7Ak-5" target="lXL9m71-PEpop8QitX5E-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXL9m71-PEpop8QitX5E-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.327;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="2vTPDlP_ir3RhMunH7Ak-1" source="xcpHQfUdlsSOhaUVcR0U-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="137" as="sourcePoint" />
+            <mxPoint x="710" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
