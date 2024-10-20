@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.0">
   <diagram name="Page-1" id="aP1KcTandbrs9hsJjMr9">
-    <mxGraphModel dx="1530" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="742" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,9 +24,6 @@
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-7" value="Fabric OneLake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="160" y="460" width="70" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-8" value="OneLake&#xa;Shortcut" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.comset.co.uk/wp-content/uploads/2024/01/one-lake-logo2-1200x1229.png;" vertex="1" parent="1">
-          <mxGeometry x="177.91000000000003" y="547.5" width="34.18" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-1" target="DNDM7aRl5_r7bgk1dtfm-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -145,6 +142,9 @@
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-45" value="Load Column&amp;nbsp;&lt;div style=&quot;font-size: 9px;&quot;&gt;into Memory&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/128/f-table-column_128-128.png;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="530" y="493.2" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-8" value="OneLake&#xa;Shortcut" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.comset.co.uk/wp-content/uploads/2024/01/one-lake-logo2-1200x1229.png;" vertex="1" parent="1">
+          <mxGeometry x="177.91000000000003" y="547.5" width="34.18" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
