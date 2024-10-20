@@ -159,6 +159,9 @@
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-52" value="Row Level/Column Level Security" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="578" y="730" width="238" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-53" value="Business Layer" style="verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;labelPosition=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430.75" width="316.75" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
