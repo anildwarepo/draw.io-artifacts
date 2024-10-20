@@ -43,7 +43,7 @@
             <mxPoint x="186.45500000000015" y="579.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-12" value="Lake house/SQL Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-12" value="Lakehouse/SQL Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="280" y="460" width="90" height="210" as="geometry" />
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-13" value="Delta Tables" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1000/1*bZEslHEBhiD69p4_nuMJuw.png;fontSize=9;" vertex="1" parent="1">
