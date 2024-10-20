@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.0">
   <diagram name="Page-1" id="aP1KcTandbrs9hsJjMr9">
-    <mxGraphModel dx="680" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-14" value="Microsoft Fabric" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="142.09" y="400" width="797.91" height="330" as="geometry" />
+          <mxGeometry x="142.09" y="400" width="797.91" height="360" as="geometry" />
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-24" value="Semantic Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="440" y="460" width="154.25" height="210" as="geometry" />
@@ -149,6 +149,15 @@
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-48" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Direct Query Mode&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-50" target="DNDM7aRl5_r7bgk1dtfm-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-50" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;textDirection=vertical-lr;" vertex="1" parent="1">
+          <mxGeometry x="478" y="720" width="428" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-52" value="Row Level/Column Level Security" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="578" y="730" width="238" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
