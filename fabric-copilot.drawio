@@ -20,7 +20,7 @@
           <mxGeometry x="46.92" y="550" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-7" value="Fabric OneLake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="160" y="460" width="70" height="210" as="geometry" />
+          <mxGeometry x="150" y="430" width="80" height="320" as="geometry" />
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-5" value="GCP Cloud Storage" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo.png;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="41.92" y="610" width="40" height="40" as="geometry" />
@@ -161,6 +161,15 @@
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-56" value="Framing" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.reload;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="540" y="604" width="24" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-57" value="Delta&amp;nbsp;&lt;div&gt;or&amp;nbsp;&lt;/div&gt;&lt;div&gt;Parquet Format&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.files;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="180" y="615.45" width="15" height="14.55" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-58" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="64" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-59" value="CSV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/general/Files.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="177.39" y="695.27" width="22.61" height="24.73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
