@@ -88,7 +88,7 @@
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-25" value="Copilot" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Microsoft_365_Copilot_Icon.svg/640px-Microsoft_365_Copilot_Icon.svg.png;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="740" y="478.77" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-30" value="Create Report&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;amp; DAX&lt;/font&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=9;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-25" target="DNDM7aRl5_r7bgk1dtfm-23">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-30" value="Create Report&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;amp; DAX&lt;/font&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=8;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-25" target="DNDM7aRl5_r7bgk1dtfm-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="760.75" as="sourcePoint" />
             <mxPoint x="600" y="710.75" as="targetPoint" />
@@ -108,12 +108,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-33" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
-          <mxGeometry x="850" y="599.25" width="51" height="68" as="geometry" />
+          <mxGeometry x="850" y="597.27" width="51" height="68" as="geometry" />
         </mxCell>
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-34" value="Copilot" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Microsoft_365_Copilot_Icon.svg/640px-Microsoft_365_Copilot_Icon.svg.png;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="740" y="616.27" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-35" value="DAX Queries" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=9;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-34" target="DNDM7aRl5_r7bgk1dtfm-33">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-35" value="DAX Queries" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontSize=8;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-34" target="DNDM7aRl5_r7bgk1dtfm-33">
           <mxGeometry x="-0.0002" y="12" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="898.25" as="sourcePoint" />
             <mxPoint x="600" y="848.25" as="targetPoint" />
