@@ -1,20 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.0">
   <diagram name="Page-1" id="aP1KcTandbrs9hsJjMr9">
-    <mxGraphModel dx="699" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="662" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-6" value="Gold Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-6" value="Gold Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="30" y="460" width="70" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Data_Lake_Storage_Gen1.svg;" vertex="1" parent="1">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-1" value="ADLS Gen2" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=6;image=img/lib/azure2/storage/Data_Lake_Storage_Gen1.svg;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="43.46" y="490" width="36.92" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-2" value="AWS S3" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=6;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="46.92" y="550" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DNDM7aRl5_r7bgk1dtfm-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo.png;" vertex="1" parent="1">
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-5" value="GCP Cloud Storage" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo.png;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="41.92" y="610" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-7" value="Semantic Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="70" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-8" value="OneLake&#xa;Shortcut" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.comset.co.uk/wp-content/uploads/2024/01/one-lake-logo2-1200x1229.png;" vertex="1" parent="1">
+          <mxGeometry x="177.91000000000003" y="547.5" width="34.18" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-1" target="DNDM7aRl5_r7bgk1dtfm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="660" as="sourcePoint" />
+            <mxPoint x="330" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-2" target="DNDM7aRl5_r7bgk1dtfm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="660" as="sourcePoint" />
+            <mxPoint x="330" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DNDM7aRl5_r7bgk1dtfm-5" target="DNDM7aRl5_r7bgk1dtfm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="660" as="sourcePoint" />
+            <mxPoint x="330" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-12" value="Lake house" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="290" y="460" width="70" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
