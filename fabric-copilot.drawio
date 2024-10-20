@@ -159,6 +159,9 @@
         <mxCell id="DNDM7aRl5_r7bgk1dtfm-53" value="Business Layer" style="verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;labelPosition=center;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="280" y="430.75" width="316.75" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="DNDM7aRl5_r7bgk1dtfm-56" value="Framing" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.reload;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="540" y="604" width="24" height="27" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
