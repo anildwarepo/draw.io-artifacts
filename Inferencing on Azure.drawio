@@ -473,7 +473,10 @@
       <root>
         <mxCell id="SQbElhCSgQBbk_72bW2F-0" />
         <mxCell id="SQbElhCSgQBbk_72bW2F-1" parent="SQbElhCSgQBbk_72bW2F-0" />
-        <mxCell id="SQbElhCSgQBbk_72bW2F-4" value="ML Workspace" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;glass=0;arcSize=3;" vertex="1" parent="SQbElhCSgQBbk_72bW2F-1">
+        <mxCell id="2r4OC8PvTAQ-lEIsIoJQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SQbElhCSgQBbk_72bW2F-1" source="SQbElhCSgQBbk_72bW2F-4" target="SQbElhCSgQBbk_72bW2F-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQbElhCSgQBbk_72bW2F-4" value="Azure EastUS2" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;glass=0;arcSize=3;" vertex="1" parent="SQbElhCSgQBbk_72bW2F-1">
           <mxGeometry x="250.59" y="-610" width="545" height="370" as="geometry" />
         </mxCell>
         <mxCell id="SQbElhCSgQBbk_72bW2F-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.147;exitDx=0;exitDy=0;dashed=1;entryX=0.821;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="SQbElhCSgQBbk_72bW2F-1" source="SQbElhCSgQBbk_72bW2F-4" target="SQbElhCSgQBbk_72bW2F-41">
