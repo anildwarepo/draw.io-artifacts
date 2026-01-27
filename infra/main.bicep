@@ -13,7 +13,7 @@ param openAIName string
 param modelName string
 
 @description('Version of the model')
-param modelVersion string = '0613'
+param modelVersion string = '2024-08-06'
 
 @description('Deployment type for Azure OpenAI - GlobalStandard for pay-as-you-go, Provisioned for PTU-based')
 @allowed([

@@ -14,7 +14,7 @@ param sku string = 'S0'
 param modelName string
 
 @description('Version of the model')
-param modelVersion string = '0613'
+param modelVersion string = '2024-08-06'
 
 @description('Deployment type for Azure OpenAI')
 @allowed([
@@ -68,7 +68,6 @@ resource deployment 'Microsoft.CognitiveServices/accounts/deployments@2023-05-01
     capacity: capacity
   } : {
     name: 'Standard'
-    capacity: null
   }
 }
 

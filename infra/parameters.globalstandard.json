@@ -15,7 +15,7 @@
       "value": "gpt-4"
     },
     "modelVersion": {
-      "value": "0613"
+      "value": "2024-08-06"
     },
     "deploymentType": {
       "value": "GlobalStandard"

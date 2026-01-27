@@ -25,7 +25,7 @@ This directory contains Bicep templates for deploying Azure OpenAI resources wit
 | `location` | string | deployment().location | Azure region for resources |
 | `openAIName` | string | - | Name of the Azure OpenAI resource |
 | `modelName` | string | - | Model to deploy (e.g., gpt-4, gpt-35-turbo) |
-| `modelVersion` | string | 0613 | Version of the model |
+| `modelVersion` | string | 2024-08-06 | Version of the model (check Azure docs for available versions) |
 | `deploymentType` | string | GlobalStandard | Deployment type (GlobalStandard or Provisioned) |
 | `deploymentName` | string | {modelName}-deployment | Name for the deployment |
 | `capacity` | int | 100 | Capacity for Provisioned deployments (PTUs) |
