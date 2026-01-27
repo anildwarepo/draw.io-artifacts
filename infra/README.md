@@ -15,6 +15,7 @@ This directory contains Bicep templates for deploying Azure OpenAI resources wit
 - `modules/cognitiveServices.bicep`: Module for creating Azure OpenAI resource and deployment
 - `parameters.globalstandard.json`: Example parameters for GlobalStandard deployment
 - `parameters.provisioned.json`: Example parameters for Provisioned deployment
+- `deploy.sh`: Bash script to simplify deployment process
 
 ## Parameters
 
@@ -45,7 +46,27 @@ This directory contains Bicep templates for deploying Azure OpenAI resources wit
 
 ## Usage
 
-### Deploy with GlobalStandard (Default)
+### Using the Deployment Script (Recommended)
+
+The `deploy.sh` script provides a simplified way to deploy the Azure OpenAI resources:
+
+```bash
+# Deploy with GlobalStandard (default)
+./deploy.sh --resource-group rg-openai --name openai-demo --model gpt-4
+
+# Deploy with Provisioned
+./deploy.sh --type provisioned --resource-group rg-openai --name openai-prod --model gpt-4
+
+# Validate before deploying
+./deploy.sh --validate --resource-group rg-openai --name openai-demo --model gpt-4
+
+# Preview changes (what-if)
+./deploy.sh --what-if --resource-group rg-openai --name openai-demo --model gpt-4
+```
+
+### Deploy with Azure CLI Directly
+
+#### Deploy with GlobalStandard (Default)
 
 ```bash
 az deployment sub create \
