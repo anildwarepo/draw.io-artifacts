@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceGroupName": {
+      "value": "rg-openai-dev"
+    },
+    "location": {
+      "value": "eastus"
+    },
+    "openAIName": {
+      "value": "openai-dev-001"
+    },
+    "modelName": {
+      "value": "gpt-4"
+    },
+    "modelVersion": {
+      "value": "2024-08-06"
+    },
+    "deploymentType": {
+      "value": "GlobalStandard"
+    },
+    "deploymentName": {
+      "value": "gpt-4-deployment"
+    }
+  }
+}
